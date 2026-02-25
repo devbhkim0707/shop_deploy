@@ -71,5 +71,5 @@ jobs:
         run: |
           aws deploy create-deployment \
             --application-name market-server \
-            --deployment-group-name market \
+            --deployment-group-name production \
             --s3-location bucket=market-uploaded-files,bundleType=zip,key=deploy.zip
