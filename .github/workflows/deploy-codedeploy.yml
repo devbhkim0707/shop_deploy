@@ -64,7 +64,7 @@ jobs:
         run: zip -r deploy.zip . -x ".git/*"
 
       - name: S3 업로드
-        run: aws s3 cp deploy.zip s3://market-uploaded-files/deploy.zip
+        run: aws s3 cp deploy.zip s3://market-uploaded-files-market/deploy.zip
 
 
       - name: CodeDeploy 실행
