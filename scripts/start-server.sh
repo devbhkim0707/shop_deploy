@@ -3,7 +3,7 @@
 echo "--------------- 서버 배포 시작 -----------------"
 
 REGION=ap-northeast-2
-ACCOUNT=618079239125.dkr.ecr.ap-northeast-2.amazonaws.com/market-server
+ACCOUNT=618079239125
 REPO=market-server
 IMAGE=$ACCOUNT.dkr.ecr.$REGION.amazonaws.com/$REPO:latest
 
